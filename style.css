@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana,sans-serif;
+}
+body{
+    background-image: url('./assets/background-4c1b4e1f-002e-4a63-8e25-23135b099b89.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;background-blend-mode: darken;
+    overflow: hidden;
+    background-position: bottom;
+    overflow: hidden;
+}
+.container{
+    width: 100vw;
+}
+
+/* header */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 80vw;
+    margin: auto;
+}
+.logo{
+    width: 95px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.0rem;
+    list-style-type: none;
+    width: 48vw;
+    color: #ffffff;
+    margin-left: 15rem;
+}
+.list-item{
+    margin-left: 1.8rem;
+}
+.line{
+    text-decoration: underline;
+    color: #ffffff;
+    border-right: 30px;
+    border-bottom: 30px;
+}
+.phone svg {
+    position: absolute;
+    width: 160%;
+    left: -136px;
+    top: -31px;
+}
+.phone svg path {
+    fill: #fff;
+}
+.main{
+    display: flex;
+    color: #fff;
+    margin: auto;
+    margin-left: 11vw;
+    margin-top: 2rem;
+}
+.left h2{
+    font-size: 5rem;
+    margin-top: 15rem;
+}
+.button-small{
+    background: transparent;
+    padding: 16px 56px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    box-shadow: none;
+    margin-top: 10rem;
+    border: 2px ridge #fff;
+    border-radius: 27px;
+}
+.right-top{
+    border: 2px ridge transparent;
+    background-color: #314556;
+    box-shadow: none;
+    margin-top: 81px;
+    margin-right: 201px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #fff;
+    width: 90px;
+    margin: 8% 20%;
+}
+.text{
+    padding: 10px;
+}
+.right-middle{
+    border: 2px ridge transparent;
+    background-color: #314556;
+    box-shadow: none;
+    position: absolute;
+    right: 28rem;
+    top: 36rem;
+    width: 18%;
+    left:57rem;
+}
+.line{
+    margin: 10px;
+    position: absolute;
+    top: 163px;
+}
+.lines{
+    margin: 10px;
+    position: absolute;
+    top: 10px;
+    left: 97px;
+}
+/* media query */
+@media only screen and (max-width: 768px) {
+.list {
+    display:none;
+}
+.left h2{
+    font-size: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+.button-small{
+    margin-top: 10px;
+    padding: 7px 8px;
+    font-size: 17px;
+    margin-left: 7rem;
+}
+.right-top{
+    position: absolute;
+    left: 139px;
+    width: 40%;
+    top: 192px;
+}
+.right-middle{
+    position: absolute;
+    left: 139px;
+    width: 40%;
+}
+}
